@@ -1,0 +1,36 @@
+{
+    "chrome":{
+        "run":false,
+
+        "chrome_arguments":{
+        "headless":false,
+        "disable_gpu" : true,
+        "start_maximized":true,
+        "no_sandbox":true
+        }
+    },
+
+    
+    "firefox":{
+        "run":false,
+        "firefox_arguments":{
+        "headless":true,
+        "disable_gpu" : true,
+        "start_maximized":true,
+        "no_sandbox":true
+        }
+    },
+
+     "edge":{
+        "run":true,
+        "edge_arguments":{
+        "headless":false,
+        "disable_gpu" : false,
+        "start_maximized":true,
+        "no_sandbox":true
+        }
+    }
+  
+
+}
+

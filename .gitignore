@@ -1,0 +1,10 @@
+#pytest cache
+.pytest_cache/
+
+#IDE
+.vscode/
+
+#compiled files
+__pycache__/
+*.py[cod]
+*$py.class
